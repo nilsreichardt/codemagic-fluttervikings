@@ -12,4 +12,4 @@ workflows:
       - name: Test
         script: |
           flutter test --update-goldens
-          cp -r packages/golden_tests/test $FCI_EXPORT_DIR
+          cp -r test $FCI_EXPORT_DIR
